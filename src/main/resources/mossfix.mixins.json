@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gamma02.mossfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BonemealMixin",
+    "MossBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
